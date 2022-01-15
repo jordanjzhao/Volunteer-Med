@@ -10,10 +10,6 @@
 
 # production
 /build
-/dist
-
-#dumb
-/dumb
 
 # misc
 .DS_Store
