@@ -12,9 +12,6 @@
 /build
 /dist
 
-#dumb
-/dumb
-
 # misc
 .DS_Store
 .env.local
