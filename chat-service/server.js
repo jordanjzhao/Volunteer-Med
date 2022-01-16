@@ -1,4 +1,10 @@
-const http = require('http').createServer();
+const http = require('http').createServer((req, res)=>{
+    const url = req.url;
+    if(url === '/check'){
+       res.write('Running');
+       return res.end();
+    }
+ });
 
 const io = require('socket.io')(http, {
     cors: { origin: "*" }
