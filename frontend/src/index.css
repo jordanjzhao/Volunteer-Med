@@ -34,6 +34,14 @@ code {
   height: 50px;
 }
 
+.form--button {
+  color: white;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #1F3566 1.14%, #1F3566 100%);
+  width: 50px;
+  cursor: pointer;
+}
+
 .login--vector {
   min-width: 100%;
 }
