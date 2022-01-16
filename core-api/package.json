@@ -1,0 +1,22 @@
+{
+  "name": "hey-doc-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vonage/server-sdk": "^2.10.10",
+    "dotenv": "^12.0.3",
+    "fastify": "^3.25.3",
+    "fastify-cors": "^6.0.2",
+    "fastify-socket.io": "^3.0.0",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.1"
+  }
+}
