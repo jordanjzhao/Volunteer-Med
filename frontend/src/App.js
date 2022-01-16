@@ -8,6 +8,9 @@ import SignUpD from "./components/SignUpD";
 import SignUpP from "./components/SignUpP";
 import SignUpVerify from "./components/SignUpVerify";
 import Password from "./components/Pssword";
+import PatientProfile from "./components/PatientProfile";
+import PatientMessaging from "./components/PatientMessaging";
+import DoctorProfile from "./components/DoctorProfile";
 import "./index.css";
 
 function App() {
@@ -21,6 +24,9 @@ function App() {
       <SignUpP />
       <SignUpVerify />
       <Password />
+      <PatientProfile />
+      <PatientMessaging />
+      <DoctorProfile />
     </div>
   );
 }
