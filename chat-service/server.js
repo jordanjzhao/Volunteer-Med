@@ -26,7 +26,7 @@ io.on('connection', (socket) => {
 
     socket.on('message', (groupId, msg) =>     {
         socket.join(groupId);
-        socket.broadcast.to(groupId).emit('message', msg);   
+        socket.broadcast.to(groupId).emit('message', msg);
     });
 });
 
