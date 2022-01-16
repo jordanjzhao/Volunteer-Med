@@ -20,3 +20,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.form {
+  display: grid;
+  text-align: center;
+  item-align: center;
+}
+
+.form--input {
+  border-radius: 10px;
+  border: 1px solid #1F3566;
+  width: 315px;
+  height: 50px;
+}
+
+.form--button {
+  color: white;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #1F3566 1.14%, #1F3566 100%);
+  width: 50px;
+  cursor: pointer;
+}
+
+.form--completebutton {
+  color: white;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #1F3566 1.14%, #1F3566 100%);
+  width: 150px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.login--vector {
+  min-width: 100%;
+}
+
+.header {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered-left {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  color: white;
+  font-size: 65px;
+}

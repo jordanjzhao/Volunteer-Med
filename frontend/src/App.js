@@ -1,11 +1,24 @@
 //import './App.css';
 import LoginScreen from "./LoginScreen"
+import React from "react";
+import Loading from "./components/Loading";
+import Login from "./components/Login";
+import SignUp from "./components/SignUp";
+import SignUpD from "./components/SignUpD";
+import SignUpP from "./components/SignUpP";
+import SignUpVerify from "./components/SignUpVerify";
+import "./index.css";
 
 function App() {
   return (
     <div className="App">
-        <p>testing testing 1 2 3</p>
-        <LoginScreen/>
+      <Loading />
+      <Login />
+      <SignUp />
+      <SignUpD />
+      <SignUpVerify />
+      <SignUpP />
+      <SignUpVerify />
     </div>
   );
 }
