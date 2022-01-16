@@ -18,11 +18,11 @@ export default function Login() {
                     <h1>Verification Number</h1>
                     <input className="form--input" placeholder="Verification" type="text" />
                 </div>
-                <div>
-                    <button className="form--button">></button>
-                </div>
             </form>
         </main>
+        <div>
+                    <button className="form--loginButton">></button>
+        </div>
         </div>
     )
 }

@@ -27,6 +27,16 @@ code {
   item-align: center;
 }
 
+
+.form--loginButton {
+  color: white;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #1F3566 1.14%, #1F3566 100%);
+  width: 50px;
+  cursor: pointer;
+  position: relative;
+}
+
 .form--input {
   border-radius: 10px;
   border: 1px solid #1F3566;

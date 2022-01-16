@@ -7,6 +7,7 @@ import SignUp from "./components/SignUp";
 import SignUpD from "./components/SignUpD";
 import SignUpP from "./components/SignUpP";
 import SignUpVerify from "./components/SignUpVerify";
+import Password from "./components/Pssword";
 import "./index.css";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <SignUpVerify />
       <SignUpP />
       <SignUpVerify />
+      <Password />
     </div>
   );
 }
