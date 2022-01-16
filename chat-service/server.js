@@ -30,4 +30,6 @@ io.on('connection', (socket) => {
     });
 });
 
-http.listen(process.env.PORT || 8080, process.env.HOST);
+http.listen(process.env.PORT || 8080, process.env.HOST, () => {
+    console.log(process.env.PORT || 8080);
+});
