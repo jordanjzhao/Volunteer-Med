@@ -78,3 +78,33 @@ code {
   color: white;
   font-size: 65px;
 }
+
+.chat--nav {
+  background-color: #1F3566;
+  display: flex;
+  height: 100px;
+  color: white;
+  padding: 20px;
+  align-items: center;
+}
+
+.chat--icon {
+  margin-left: 350px;
+  size: 0.0001rem;
+}
+
+.chat--input {
+  margin-left: 50px;
+  border-radius: 17px;
+  width: 300px;
+  height: 40px;
+  background-color: #c4c4c4;
+}
+
+.chat--button {
+  margin-left: 70px;
+}
+
+.chat--field {
+  height: 600px;
+}

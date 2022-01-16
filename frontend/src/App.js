@@ -11,6 +11,7 @@ import Password from "./components/Password";
 import PatientProfile from "./components/PatientProfile";
 import PatientMessaging from "./components/PatientMessaging";
 import DoctorProfile from "./components/DoctorProfile";
+import Chat from "./components/Chat";
 import "./index.css";
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
       <PatientProfile />
       <PatientMessaging />
       <DoctorProfile />
+      <Chat />
     </div>
   );
 }
