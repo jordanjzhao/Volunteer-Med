@@ -6,7 +6,6 @@ import SignUp from "./components/SignUp";
 import SignUpD from "./components/SignUpD";
 import SignUpP from "./components/SignUpP";
 import SignUpVerify from "./components/SignUpVerify";
-import WebRTC from "./components/WebRTC";
 import "./index.css";
 
 function App() {
