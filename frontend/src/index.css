@@ -42,6 +42,15 @@ code {
   cursor: pointer;
 }
 
+.form--completebutton {
+  color: white;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #1F3566 1.14%, #1F3566 100%);
+  width: 150px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
 .login--vector {
   min-width: 100%;
 }
