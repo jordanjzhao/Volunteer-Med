@@ -20,3 +20,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.form {
+  display: grid;
+  text-align: center;
+  item-align: center;
+}
+
+.form--input {
+  border-radius: 10px;
+  border: 1px solid #1F3566;
+  width: 315px;
+  height: 50px;
+}
+
+.login--vector {
+  min-width: 100%;
+}
+
+.header {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered-left {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  color: white;
+  font-size: 65px;
+}

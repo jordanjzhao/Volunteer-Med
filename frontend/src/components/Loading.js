@@ -1,10 +1,10 @@
 import React from 'react';
-import logoTest from '../images/logotest.jpg';
+import logoFinal from '../images/logoFinal.png';
 
 export default function Loading() {
     return (
         <div>
-            <img className="testlogo" src={logoTest}/>
+            <img className="logo" src={logoFinal}/>
         </div>
     )
 }
