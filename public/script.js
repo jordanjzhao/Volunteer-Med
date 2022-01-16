@@ -1,9 +1,6 @@
-const socket = io('/')
+const socket = io('http://heydoc-rtc.dhruv.tech:8080/')
 const videoGrid = document.getElementById('video-grid')
-const myPeer = new Peer(undefined, {
-  host: 'https://p2p.dhryv.tech/',
-  port: '80'
-})
+const myPeer = new Peer(undefined)
 const myVideo = document.createElement('video')
 myVideo.muted = true
 const peers = {}
@@ -21,17 +18,17 @@ navigator.mediaDevices.getUserMedia({
     })
   })
 
-  socket.on('user-connected', userId => {
+  socket.on('user-connect', userId => {
     connectToNewUser(userId, stream)
   })
 })
 
-socket.on('user-disconnected', userId => {
+socket.on('user-disconnect', userId => {
   if (peers[userId]) peers[userId].close()
 })
 
 myPeer.on('open', id => {
-  socket.emit('join-room', ROOM_ID, id)
+  socket.emit('join-room', 10, id)
 })
 
 function connectToNewUser(userId, stream) {

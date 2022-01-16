@@ -1,4 +1,10 @@
-const http = require('http').createServer();
+const http = require('http').createServer((req, res)=>{
+    const url = req.url;
+    if(url === '/check'){
+       res.write('Running');
+       return res.end();
+    }
+ });
 
 const io = require('socket.io')(http, {
     cors: { origin: "*" }
@@ -26,8 +32,10 @@ io.on('connection', (socket) => {
 
     socket.on('message', (groupId, msg) =>     {
         socket.join(groupId);
-        socket.broadcast.to(groupId).emit('message', msg);   
+        socket.broadcast.to(groupId).emit('message', msg);
     });
 });
 
-http.listen(process.env.PORT || 8080, process.env.HOST);
+http.listen(process.env.PORT || 8080, process.env.HOST, () => {
+    console.log(process.env.PORT || 8080);
+});
