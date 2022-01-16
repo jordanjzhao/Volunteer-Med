@@ -7,7 +7,7 @@ import SignUp from "./components/SignUp";
 import SignUpD from "./components/SignUpD";
 import SignUpP from "./components/SignUpP";
 import SignUpVerify from "./components/SignUpVerify";
-import Password from "./components/Pssword";
+import Password from "./components/Password";
 import PatientProfile from "./components/PatientProfile";
 import PatientMessaging from "./components/PatientMessaging";
 import DoctorProfile from "./components/DoctorProfile";
