@@ -14,3 +14,5 @@ By applying a virtual aspect to the concept, we can provide medical services mor
 In return, the app could expand and look forward to expansion areas that include confidentiality and potentially an acceptance to document
 patient information for research in exchange for the service. As a result, both patient and doctor can benefit from medical care and the growth
 to medical research and issues of interest.
+
+Figma link for wireframing: https://www.figma.com/file/TN25x5QVtr1oGLx3JKkM2j/nwHacks-2022?node-id=4%3A4
